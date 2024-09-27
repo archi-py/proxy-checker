@@ -30,3 +30,15 @@
        "proxy_format": "host:port",
        "threads": 10
    }
+Установка необходимых библиотек:
+
+Откройте командную строку (cmd) и перейдите в директорию с чекером.
+Выполните команды:
+pip install --upgrade pip
+pip install -r requirements.txt
+Запуск чекера:
+
+В командной строке выполните:
+python main.py
+Результаты проверки
+Все валидные прокси будут сохранены в файл valid_proxy.txt, а невалидные — в invalid_proxy.txt.
