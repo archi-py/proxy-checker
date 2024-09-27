@@ -1,0 +1,4 @@
+{
+	"proxy_format": "host:port",
+	"threads": 10
+}
